@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "id": "9e60",
+      "name": "Projeto Atualizado",
+      "budget": "322122",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": null,
+      "services": [
+        {
+          "name": "Ruan",
+          "cost": "12341",
+          "description": "Teste",
+          "id": "53a62f43-f725-425b-ae02-f146d4afed1b"
+        }
+      ]
+    },
+    {
+      "id": "b903",
+      "name": "Janaina",
+      "budget": "20000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8a0e",
+      "name": "Arthur",
+      "budget": "311111",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c39e",
+      "name": "Ruan 2",
+      "budget": "50000",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "54c7",
+      "name": "Ruan",
+      "budget": "222222222222",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

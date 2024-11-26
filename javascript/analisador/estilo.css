@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #3299CC;
+    font: normal 1em Arial;
+}
+
+#borda{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px black;
+    width: 600px;
+    height: 550px;
+    margin: auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ilista{
+    width: 250px;
+    height: 120px;
+}

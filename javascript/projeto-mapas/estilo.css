@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --fonte-principal: 'Playfair Display';
+    --fonte-arial: 'Arial';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+body{  
+    background-color: rgb(34, 31, 31);
+}
+
+header{
+    background-color: rgb(22, 21, 21);
+    min-height: 7em;
+    max-height: 9.5em;
+    border-bottom: 1px solid #ce0e6e;
+    box-shadow: 1px 1px 3px #ce0d6dd2;
+}
+
+#titulo{
+    color: #ce0e6e;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 1px 1px 2px #ce0d6dd2;
+}
+
+#subtitulo{
+    color: aliceblue;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+#barralateral{
+    background-color: #800744a2; 
+    color: white;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1; /*sobreposição de elemento */
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    border-radius: 0.2em;
+}
+
+.fechar{
+color: white;
+text-decoration: none;
+font: 1.5em arial normal;
+padding: 0.1em 0.2em;
+background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#conteudobarra img{
+    max-height: 30vh;
+    max-width:  30vw;
+    border-radius: 1%;
+    display: block;
+    margin: auto;
+    padding: 0.1em;
+}
+
+#conteudobarra h1{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#conteudobarra p{
+    text-align: center;
+    text-align: justify;
+    font: normal 1em Arial;
+    margin: 0.7em 2em 0.7em 2em;
+}
+
+.geral{
+    display: inline-block;
+    border: 0.1em solid #ce0d6dd2;
+    padding: 0.8em;
+    margin: 0.8em;
+    border-radius: 0.8em;
+    background-color: rgba(46, 43, 43, 0.1);
+}
+
+article:hover{
+    /* zoom: 1.1; */
+    translate: 0px 0px;
+    animation: mymove 2s normal;
+}
+
+@keyframes mymove {
+    70% {box-shadow: 0px 0px 20px #ce0e6e} 
+}
+
+#sessaoprincipal{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+#mapasprincipais article p{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 0.5em;
+    font-family: var(--fonte-principal);
+}
+
+#mapasprincipais img{
+    min-width: 8em;
+    max-width: 13em;
+    border-radius: 2px;
+}
+
+
+#sessaosecundaria{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#mapassecundarios article p{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 0.5em;
+    font-family: var(--fonte-principal);
+}
+
+#mapassecundarios img{
+    min-width: 8em;
+    max-width: 13em;
+    border-radius: 2px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 4em;
+    color: whitesmoke;
+}
+
+footer p {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    #mapasprincipais img{
+        min-width: 5em;
+        max-width: 7em;
+        border-radius: 2px;
+    }
+    #mapassecundarios img{
+        min-width: 5em;
+        max-width: 7em;
+        border-radius: 2px;
+    }
+    footer p {
+        margin: 5px;
+    }
+    #barralateral{
+        height: 0;
+        width: 100%;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+
+

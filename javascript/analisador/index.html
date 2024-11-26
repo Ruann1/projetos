@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="borda">
+        <header>
+            <h1>Analisador de Números</h1>
+        </header>
+        <div id="numero">
+            <label for="inum">Adicione um número de <strong>(0 a 100)</strong>:</label>
+            <input type="number" name="num" id="inum">
+            <input type="button" value="Analisar" onclick="analisar()"><br><br><br>
+        </div>
+
+        <select name="lista" id="ilista" size="6"></select><br><br>
+
+        <div id="finalizar">
+            
+            <input type="submit" value="Finalizar" onclick="final()"> <br><br>
+        </div>
+        <div id="text">
+        
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
